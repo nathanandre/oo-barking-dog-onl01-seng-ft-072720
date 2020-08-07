@@ -3,12 +3,12 @@ class Dog
   puts "Woof!"
 end
 
+fido = Dog.new
+fido.bark 
+
   def name= (dogs_name)
     @this_dogs_name = dogs_name
   end 
-
-fido = Dog.new
-fido.bark 
   
   def name
     @this_dogs_name
